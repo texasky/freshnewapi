@@ -4,7 +4,7 @@ import { renderNews } from './view.js';
 
 for (let [key, value] of data.channelsUrlArr) {
   key.addEventListener('click', function() {
-    main.innerHTML = ' ';
+    data.main.innerHTML = ' ';
     getFeed(value)
     .then(articlesArr => renderNews(articlesArr));
   })

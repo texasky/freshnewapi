@@ -1,0 +1,77 @@
+h1 {
+    text-align: center;
+		font-family: 'Spicy Rice', cursive;
+		letter-spacing: 0.1em;
+}
+
+form {
+		text-align: center;
+}
+
+button {
+    color: #444444;
+    background: #F3F3F3;
+    border: 1px #DADADA solid;
+    padding: 5px 10px;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 9pt;
+    outline: none;
+		margin: 0 5px;
+}
+
+button:hover {
+    border: 1px #C6C6C6 solid;
+    box-shadow: 1px 1px 1px #EAEAEA;
+    color: #333333;
+    background: #F7F7F7;
+}
+
+button:active {
+    box-shadow: inset 1px 1px 1px #DFDFDF;
+}
+
+.wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+main {
+  display: flex;
+  flex-flow: row wrap;
+	justify-content: center;
+  color: #FFFFFF;
+}
+
+.articlecell {
+  position: relative;
+  max-width: 40%;
+  min-height: 250px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.title, .descriptionblock {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+.descriptionblock {
+	margin-top: 40px;
+}
+
+.readmore {
+  position: absolute;
+  top: 90%;
+
+}
+
+footer {
+	text-align: center;
+}
+
+@media (max-width: 650px) {
+  .articlecell {
+    min-width: 280px;
+    max-width: 100%;
+  }
+}
