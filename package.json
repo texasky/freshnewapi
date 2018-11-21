@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "babel src --out-file src/compiled.js",
-    "watch": "babel src --watch --out-file src/compiled.js"
+    "build": "babel packedjs --out-file src/compiled.js",
+    "watch": "babel packedjs --watch --out-file src/compiled.js"
   },
   "repository": {
     "type": "git",
