@@ -1,5 +1,3 @@
-require("@babel/polyfill");
-
 const main = document.getElementsByTagName('main')[0];
 const bbc = document.getElementById('bbc');
 const cnn = document.getElementById('cnn');
