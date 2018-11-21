@@ -20,9 +20,9 @@ const getFeed = async (url) => {
   return articlesArr;
 }
 
-for (let [key, value] of data.channelsUrlArr) {
+for (let [key, value] of channelsUrlArr) {
   key.addEventListener('click', function() {
-    data.main.innerHTML = ' ';
+    main.innerHTML = ' ';
     getFeed(value)
     .then(articlesArr => renderNews(articlesArr));
   })
