@@ -130,14 +130,14 @@ try {
         value = _step$value[1];
 
     key.addEventListener('click', function () {
-      data.main.innerHTML = ' ';
+      main.innerHTML = ' ';
       getFeed(value).then(function (articlesArr) {
         return renderNews(articlesArr);
       });
     });
   };
 
-  for (var _iterator = data.channelsUrlArr[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
+  for (var _iterator = channelsUrlArr[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
     _loop();
   }
 } catch (err) {
