@@ -1,5 +1,4 @@
 "use strict";
-"use strict";
 
 var data = _interopRequireWildcard(require("./data.js"));
 
