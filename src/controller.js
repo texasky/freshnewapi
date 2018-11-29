@@ -1,3 +1,7 @@
+import "@babel/polyfill";
+import "./style.css";
+// const fetch = require('isomorphic-fetch');
+
 import * as data from './data.js';
 import { getFeed } from './model.js';
 import { renderNews } from './view.js';
