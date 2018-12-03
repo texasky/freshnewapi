@@ -31,39 +31,6 @@ button:active {
     box-shadow: inset 1px 1px 1px #DFDFDF;
 }
 
-.wrapper {
-  max-width: 1400px;
-  margin: 0 auto;
-}
-
-main {
-  display: flex;
-  flex-flow: row wrap;
-	justify-content: center;
-  color: #FFFFFF;
-}
-
-.articlecell {
-  position: relative;
-  max-width: 40%;
-  min-height: 250px;
-  padding: 20px;
-  margin: 10px;
-}
-
-.title, .descriptionblock {
-  font-family: "Times New Roman", Times, serif;
-  font-weight: bold;
-}
-.descriptionblock {
-	margin-top: 40px;
-}
-
-.readmore {
-  position: absolute;
-  top: 90%;
-
-}
 
 footer {
 	text-align: center;

@@ -20,6 +20,7 @@
   "homepage": "https://github.com/texasky/freshnewapi#readme",
   "devDependencies": {
     "@babel/core": "^7.1.6",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
     "@babel/preset-env": "^7.1.6",
     "babel-loader": "^8.0.4",
     "css-loader": "^1.0.1",
