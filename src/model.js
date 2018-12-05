@@ -9,8 +9,11 @@ export const getFeed = async (url) => {
   } catch(err) {
     let modalContent;
     if(!modalContent) {
-      import('./modal.js' /* webpackChunkName: "modal" */).then(({modalcontent}) => {
-        modalcontent.innerHTML = err.message;
+      import('./modal.js' /* webpackChunkName: "modal" */).then(({default: module}) => {
+        module.close.addEventListener('click', function (){
+          modal.classList.add("hidden");
+        })
+        module.modalcontent.innerHTML = err.message;
       });
     } else {
       modalcontent.innerHTML = err.message;
