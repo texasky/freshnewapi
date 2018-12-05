@@ -13,7 +13,7 @@ for (let [key, value] of data.channelsUrlArr) {
     if(!renderNews) {
       import('./view.js' /* webpackChunkName: "rendernews" */).then(({renderNews}) => {
       getFeed(value)
-      .then(articlesArr => renderNews(articlesArr));
+      .then(articlesArr => renderNews(articlesArr))
       });
     } else {
       getFeed(value)
